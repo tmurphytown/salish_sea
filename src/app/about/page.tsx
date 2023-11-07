@@ -35,7 +35,6 @@ export default function About() {
                                     and care. Book your session with her today and discover the unparalleled benefits of her
                                     healing touch. Get ready to experience a new level of relaxation and wellness,
                                     courtesy of Angela Ball, your trusted massage therapist.</p>
-
                             </div>
                         </div>
                     </div>
