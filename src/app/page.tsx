@@ -22,14 +22,14 @@ export default function Home() {
             <div className="md:w-1/2 lg:2/3">
               <h2 className="font-sansita_swashed font-bold text-3xl pb-6">Why Salish Sea</h2>
               <p>
-                If you're seeking the ultimate relaxation and rejuvenation experience,
+                If you&apos;re seeking the ultimate relaxation and rejuvenation experience,
                 look no further than Salish Sea Massage. As a reputable and highly
                 sought-after massage therapist, Angela prides herself on offering a
                 multi-sensory journey where the healing power of touch, sound and
                 aromatherapy merge into an unforgettable experience for body, mind,
                 and soul.</p>
               <p>Angela takes the time to understand your unique needs and preferences,
-                tailoring each session to address your specific concerns. Whether you're
+                tailoring each session to address your specific concerns. Whether you&apos;re
                 seeking relief from stress and tension, battling chronic pain,
                 or simply desiring a well-deserved escape from the daily grind,
                 her blend of time-honored massage techniques and modern therapeutic
@@ -94,7 +94,7 @@ export default function Home() {
                 <br />
                 <h4 className="font-bold">BEST MASSAGE</h4>
                 <p>Angela is AWESOME. She got the PERFECT touch. Gets all the kinks out.
-                  I haven't feel this GREAT for so long. She makes my body feels like
+                  I haven&appo;t felt this GREAT for so long. She makes my body feels like
                   BRAND NEW. Good bye my stiff neck and shoulders, my sore body, and
                   headache. Thank you ANGELA. She have the MAGIC touch. And would
                   recommend her to anyone</p>
@@ -103,8 +103,8 @@ export default function Home() {
                 </div>
                 <br />
                 <h4 className="font-bold">Perfect!</h4>
-                <p>Angela has SUCH a gift. I've seen her twice for prenatal massage,
-                  and at 21 weeks, I feel amazing. She's also such a joy to connect
+                <p>Angela has SUCH a gift. I&appo;ve seen her twice for prenatal massage,
+                  and at 21 weeks, I feel amazing. She&appo;s also such a joy to connect
                   with and has such a wonderful energy. Looking forward to many more visits.</p>
                 <div className="flex flex-row">
                   < AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />
