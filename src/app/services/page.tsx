@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {ArrowUp} from "lucide-react";
 
 export default function Services() {
   return (
@@ -50,7 +51,7 @@ export default function Services() {
             Book your session now and let the Detox Body Wrap work its magic! Your body will thank you for it.
           </p>
         </div>
-        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-4 py-2 mb-24 mt-10 rounded-md">^</Link>
+        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-2 py-2 mb-24 mt-10 rounded-md"><ArrowUp /></Link>
       </div>
       <div className="flex flex-col items-center bg-white h-2xscreen relative" id="section2">
         <img src="/assets/cloud-color-4.png" className="absolute inset-0 w-full h-full object-cover" />
@@ -76,7 +77,7 @@ export default function Services() {
             and let the healing powers of paraffin wax transform your day. You won&appo;t believe the difference until you try it for yourself!
           </p>
         </div>
-        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-4 py-2 mb-24 mt-10 rounded-md">^</Link>
+        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-2 py-2 mb-24 mt-10 rounded-md"><ArrowUp /> </Link>
       </div>
       <div className="flex flex-col items-center bg-c1 h-2xscreen relative" id="section3">
         <img src="/assets/cloud-color-3.png" className="absolute inset-0 w-full h-full object-cover" />
@@ -100,7 +101,7 @@ export default function Services() {
             precious time and cherish the bond between mother and child. Book your session today and let us cater to your well-being with the utmost care and expertise.
           </p>
         </div>
-        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-4 py-2 mb-24 mt-10 rounded-md">^</Link>
+        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-2 py-2 mb-24 mt-10 rounded-md"><ArrowUp /></Link>
       </div>
       <div className="flex flex-col items-center bg-white h-2xscreen relative" id="section4">
         <img src="/assets/cloud-color-2.png" className="absolute inset-0 w-full h-full object-cover" />
@@ -126,7 +127,7 @@ export default function Services() {
             Invest in your well-being with Treatment Massage, and unlock the path to a healthier, happier you.
           </p>
         </div>
-        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-4 py-2 mb-24 mt-10 rounded-md">^</Link>
+        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-2 py-2 mb-24 mt-10 rounded-md"><ArrowUp /></Link>
       </div>
       <div className="flex flex-col items-center bg-c1 h-2xscreen relative" id="section5">
         <img src="/assets/cloud-color-1.png" className="absolute inset-0 w-full h-full object-cover" />
@@ -151,7 +152,7 @@ export default function Services() {
             stones revitalize your body and restore your energy. Book your session now and experience the blissful harmony of body, mind, and spirit.
           </p>
         </div>
-        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-4 py-2 mb-24 mt-10 rounded-md">^</Link>
+        <Link href="#home" type="submit" className="bg-opacity-75 bg-blur-lg hover:bg-opacity-100 bg-c1 text-c3 border border-c3 drop-shadow-lg hover:bg-c3 hover:text-white hover:border-c2 hover:font-extrabold px-2 py-2 mb-24 mt-10 rounded-md"><ArrowUp /></Link>
       </div>
 
     </main>
