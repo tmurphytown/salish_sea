@@ -94,7 +94,7 @@ export default function Home() {
                 <br />
                 <h4 className="font-bold">BEST MASSAGE</h4>
                 <p>Angela is AWESOME. She got the PERFECT touch. Gets all the kinks out.
-                  I haven&appo;t felt this GREAT for so long. She makes my body feels like
+                  I haven&apos;t felt this GREAT for so long. She makes my body feels like
                   BRAND NEW. Good bye my stiff neck and shoulders, my sore body, and
                   headache. Thank you ANGELA. She have the MAGIC touch. And would
                   recommend her to anyone</p>
@@ -103,8 +103,8 @@ export default function Home() {
                 </div>
                 <br />
                 <h4 className="font-bold">Perfect!</h4>
-                <p>Angela has SUCH a gift. I&appo;ve seen her twice for prenatal massage,
-                  and at 21 weeks, I feel amazing. She&appo;s also such a joy to connect
+                <p>Angela has SUCH a gift. I&apos;ve seen her twice for prenatal massage,
+                  and at 21 weeks, I feel amazing. She&apos;s also such a joy to connect
                   with and has such a wonderful energy. Looking forward to many more visits.</p>
                 <div className="flex flex-row">
                   < AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />
