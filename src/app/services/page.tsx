@@ -6,12 +6,12 @@ export default function Services() {
     <main>
       <div className="flex flex-col items-center justify-center bg-white h-screen relative" id="home">
         <img src="/assets/cloud-color-7.png" className="absolute inset-0 w-full h-full object-cover" />
-        <div className="bg-white bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg w-[calc(100%-2rem)] sm:w-1/2 min-h-2/3 items-center justify-center relative z-10">
-          <h1 className="text-c3 font-bold font-sansita_swashed flex text-center items-center justify-center mt-8 relative z-10">Treatment Offerings</h1>
+        <div className="bg-white bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg w-[calc(100%-2rem)] sm:w-1/2 min-h-2/3 items-center justify-center relative z-10 py-16">
+          <h1 className="text-c3 font-bold font-sansita_swashed flex text-center items-center justify-center relative z-10">Treatment Offerings</h1>
           <br />
           <nav>
             <ul>
-              <li className="text-c2 font-bold font-sansita_swashed text-2xl underline flex items-center justify-center mt-8 relative z-10"> <a href="#section1" >Detox Body Wrap</a></li>
+              <li className="text-c2 font-bold font-sansita_swashed text-2xl underline flex items-center justify-center relative z-10"> <a href="#section1" >Detox Body Wrap</a></li>
               <br />
               <li className="text-c2 font-bold font-sansita_swashed text-2xl underline flex items-center justify-center mt-8 relative z-10"> <a href="#section2" >Parafin Wax Dip</a></li>
               <br />
