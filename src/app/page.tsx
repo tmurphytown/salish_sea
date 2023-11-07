@@ -1,112 +1,119 @@
-import Image from 'next/image'
+import { AiFillStar } from 'react-icons/ai'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className='overflow-x-hidden'>
+      <div className="h-screen">
+        <img src="/assets/cloud-color-3.png" className='absolute inset-0 w-4/5 md:w-3/5 xl:w-2/5 left-[-1em] md:left-[-10em] mt[10em] xl:mt-[5%] object-contain' />
+        <div className="bg-white flex justify-center h-screen">
+          <div className='absolute h-screen w-full flex items-center justify-center z-20 px-20'>
+            <img src="./assets/salish sea logo.png" className='w-[40em] flex justify-center relative z-10' alt="logo" />
+          </div>
+          <img src="/assets/cloud-color-1.png" className='relative z-10 w-3/5 h-2/5 right-[-15em] sm:right-[-15em] lg:right-[-30em] top-[70vh] object-contain-center' />
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="bg-c1" >
+        <div className="flex">
+          <div className="flex gap-20 my-20 mx-auto px-10 max-w-[80em] items-center flex-col md:flex-row-reverse min:h-screen">
+            <div className='basis-1/2 md:w-5/6'>
+              <img className="transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0 z-20" src="./assets/hot-rock-massage.jpg" alt="hot stone" />
+            </div>
+            <div className="md:w-1/2 lg:2/3">
+              <h2 className="font-sansita_swashed font-bold text-3xl pb-6">Why Salish Sea</h2>
+              <p>
+                If you're seeking the ultimate relaxation and rejuvenation experience,
+                look no further than Salish Sea Massage. As a reputable and highly
+                sought-after massage therapist, Angela prides herself on offering a
+                multi-sensory journey where the healing power of touch, sound and
+                aromatherapy merge into an unforgettable experience for body, mind,
+                and soul.</p>
+              <p>Angela takes the time to understand your unique needs and preferences,
+                tailoring each session to address your specific concerns. Whether you're
+                seeking relief from stress and tension, battling chronic pain,
+                or simply desiring a well-deserved escape from the daily grind,
+                her blend of time-honored massage techniques and modern therapeutic
+                approach strives to deliver a holistic and personalized treatment that
+                leaves you feeling revitalized and balanced.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <div className="bg-white min-h-screen">
+        <div className="flex">
+          <img src="/assets/cloud-color-2.png" className='absolute z-10  left-[-5em] mt-[-10%]' />
+          <div className=''>
+            <div className="flex gap-20 mx-auto px-10 max-w-[80em] relative z-20 flex-col lg:flex-row items-center pt-20 mb-20">
+                <img className="h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0 w-full md:w-1/2 mx-4 m-8 relative" src="./assets/theraputic_massage.jpg" alt="theraputic massage" />
+              <div className="px-4 md:px-20 lg:p-0">
+                <h2 className="font-sansita_swashed font-bold text-3xl">The Benefits of Massage</h2>
+                <p>Massage therapy offers a myriad of benefits that extend well beyond
+                  the realms of relaxation and indulgence. First and foremost, massage
+                  is a powerful stress-reliever. As our lives become increasingly hectic,
+                  the soothing touch of a skilled massage therapist can work wonders in
+                  reducing the levels of cortisol, the stress hormone, in our bodies.
+                  This decrease in stress not only leaves us feeling more at ease but also
+                  helps boost our mood and overall sense of well-being.</p>
+                <p>Massage therapy is also renowned for its ability to alleviate muscle
+                  tension and soreness. Whether caused by strenuous physical activity,
+                  poor posture, or sedentary lifestyles, regular massages can target and
+                  release the tightness in our muscles, leading to improved flexibility
+                  and range of motion. The increase in blood circulation during a massage
+                  also aids in delivering vital nutrients and oxygen to the tissues,
+                  promoting quicker recovery from injuries and reducing inflammation.</p>
+                <p>Beyond the physical benefits, massage has a profound impact on our
+                  mental health. It is known to enhance mental clarity and focus, allowing
+                  us to better cope with the challenges of everyday life. Additionally,
+                  the calming and nurturing touch of a massage can alleviate symptoms of
+                  anxiety and depression, leaving us with a sense of comfort and emotional
+                  balance. Overall, the holistic nature of massage therapy makes it a truly
+                  valuable practice for enhancing both our physical and mental well-being. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-c1 min-h-screen relative">
+        <div className="flex">
+          <div className="flex gap-20 my-20 mx-auto px-5 max-w-[80em] items-center lg:flex-row-reverse flex-col">
+              <img className="h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0 w-full md:w-1/2 mx-4 m-8 z-10" src="./assets/oil.jpg" alt="aroma therapy" />
+            <div>
+              <img src="/assets/cloud-color-5.png" className='absolute z-0 right-[-20em] top-[-15vh] object-contain-center' />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+              <div className="px-4 md:px-10 relative z-20">
+                <h2 className="font-sansita_swashed font-bold text-3xl pb-6">What My Clients Are Saying</h2>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+                <h4 className="font-bold">Wonderfully relaxing</h4>
+                <p>“I had a great first experience with Angela. She so warm and kind.
+                  Very easy to relax and I left feeling less tension. I look forward
+                  to my next massage.”</p>
+                <div className="flex flex-row">
+                  < AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />
+                </div>
+                <br />
+                <h4 className="font-bold">BEST MASSAGE</h4>
+                <p>Angela is AWESOME. She got the PERFECT touch. Gets all the kinks out.
+                  I haven't feel this GREAT for so long. She makes my body feels like
+                  BRAND NEW. Good bye my stiff neck and shoulders, my sore body, and
+                  headache. Thank you ANGELA. She have the MAGIC touch. And would
+                  recommend her to anyone</p>
+                <div className="flex flex-row">
+                  < AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />
+                </div>
+                <br />
+                <h4 className="font-bold">Perfect!</h4>
+                <p>Angela has SUCH a gift. I've seen her twice for prenatal massage,
+                  and at 21 weeks, I feel amazing. She's also such a joy to connect
+                  with and has such a wonderful energy. Looking forward to many more visits.</p>
+                <div className="flex flex-row">
+                  < AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />< AiFillStar />
+                </div>
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   )
